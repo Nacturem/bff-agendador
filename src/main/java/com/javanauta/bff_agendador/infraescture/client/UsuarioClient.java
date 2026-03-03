@@ -16,7 +16,7 @@ public interface UsuarioClient {
 
 
     @PostMapping("/login")
-    String login(LoginRequestDTO usuarioDTO);
+    String login(@RequestBody LoginRequestDTO usuarioDTO);
 
 
     @GetMapping

@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 public class TarefasDTOResponse {
 
 
+    private String id;
     private String nomeTarefa;
     private String descricao;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")

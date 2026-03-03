@@ -13,6 +13,7 @@ import java.util.List;
 public class UsuarioDTOResponse {
 
 
+    private String id;
     private String nome;
     private String email;
     private String senha;
