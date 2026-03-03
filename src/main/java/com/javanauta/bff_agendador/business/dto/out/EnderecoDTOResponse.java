@@ -1,4 +1,4 @@
-package com.javanauta.bff_agendador.business.dto;
+package com.javanauta.bff_agendador.business.dto.out;
 
 
 import lombok.*;
@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class EnderecoDTO {
+public class EnderecoDTOResponse {
 
 
     private Long id;
