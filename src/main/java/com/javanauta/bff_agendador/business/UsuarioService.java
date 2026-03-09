@@ -22,7 +22,6 @@ public class UsuarioService {
 
 
     public UsuarioDTOResponse salvaUsuario(UsuarioDTORequest usuarioDTO) {
-
         return client.salvaUsuario(usuarioDTO);
 
     }
