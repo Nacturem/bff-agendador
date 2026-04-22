@@ -1,4 +1,4 @@
-package com.javanauta.usuario.exceptions;
+package com.javanauta.bff_agendador.infraescture.client.exceptions;
 
 public class IllegalArgumentException extends RuntimeException {
 
