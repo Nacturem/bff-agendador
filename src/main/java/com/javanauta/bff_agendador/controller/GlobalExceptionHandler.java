@@ -1,6 +1,8 @@
 package com.javanauta.bff_agendador.controller;
 
+
 import com.javanauta.bff_agendador.infraescture.client.exceptions.ConflictException;
+import com.javanauta.bff_agendador.infraescture.client.exceptions.IllegalArgumentException;
 import com.javanauta.bff_agendador.infraescture.client.exceptions.ResourceNotFoundException;
 import com.javanauta.bff_agendador.infraescture.client.exceptions.UnathorizedException;
 import org.springframework.http.HttpStatus;
@@ -26,6 +28,11 @@ public class GlobalExceptionHandler {
     public ResponseEntity<String> handlerUnathorizedException(UnathorizedException ex){
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.UNAUTHORIZED);
     }
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex){
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
 
 
 }
