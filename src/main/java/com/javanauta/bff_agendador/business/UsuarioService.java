@@ -9,7 +9,7 @@ import com.javanauta.bff_agendador.business.dto.out.EnderecoDTOResponse;
 import com.javanauta.bff_agendador.business.dto.out.TelefoneDTOResponse;
 import com.javanauta.bff_agendador.business.dto.out.UsuarioDTOResponse;
 import com.javanauta.bff_agendador.business.dto.out.ViaCepDTOResponse;
-import com.javanauta.bff_agendador.infraescture.client.UsuarioClient;
+import com.javanauta.bff_agendador.infrastructure.client.UsuarioClient;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

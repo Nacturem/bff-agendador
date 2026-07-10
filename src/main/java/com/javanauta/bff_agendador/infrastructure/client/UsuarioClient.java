@@ -1,4 +1,4 @@
-package com.javanauta.bff_agendador.infraescture.client;
+package com.javanauta.bff_agendador.infrastructure.client;
 
 
 import com.javanauta.bff_agendador.business.dto.in.EnderecoDTORequest;
@@ -10,7 +10,6 @@ import com.javanauta.bff_agendador.business.dto.out.TelefoneDTOResponse;
 import com.javanauta.bff_agendador.business.dto.out.UsuarioDTOResponse;
 import com.javanauta.bff_agendador.business.dto.out.ViaCepDTOResponse;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @FeignClient(name = "usuario", url = "${usuario.url}")

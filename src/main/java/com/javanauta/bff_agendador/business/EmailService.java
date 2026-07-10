@@ -2,7 +2,7 @@ package com.javanauta.bff_agendador.business;
 
 
 import com.javanauta.bff_agendador.business.dto.out.TarefasDTOResponse;
-import com.javanauta.bff_agendador.infraescture.client.EmailClient;
+import com.javanauta.bff_agendador.infrastructure.client.EmailClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

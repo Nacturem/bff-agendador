@@ -1,4 +1,4 @@
-package com.javanauta.bff_agendador.infraescture.client.exceptions;
+package com.javanauta.bff_agendador.infrastructure.client.exceptions;
 
 public class BusinessException extends RuntimeException {
 

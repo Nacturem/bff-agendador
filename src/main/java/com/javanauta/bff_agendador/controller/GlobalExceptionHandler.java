@@ -1,10 +1,10 @@
 package com.javanauta.bff_agendador.controller;
 
 
-import com.javanauta.bff_agendador.infraescture.client.exceptions.ConflictException;
-import com.javanauta.bff_agendador.infraescture.client.exceptions.IllegalArgumentException;
-import com.javanauta.bff_agendador.infraescture.client.exceptions.ResourceNotFoundException;
-import com.javanauta.bff_agendador.infraescture.client.exceptions.UnathorizedException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.ConflictException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.IllegalArgumentException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.ResourceNotFoundException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.UnathorizedException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

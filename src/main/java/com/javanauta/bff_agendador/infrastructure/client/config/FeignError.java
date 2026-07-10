@@ -1,9 +1,9 @@
-package com.javanauta.bff_agendador.infraescture.client.config;
+package com.javanauta.bff_agendador.infrastructure.client.config;
 
-import com.javanauta.bff_agendador.infraescture.client.exceptions.BusinessException;
-import com.javanauta.bff_agendador.infraescture.client.exceptions.ConflictException;
-import com.javanauta.bff_agendador.infraescture.client.exceptions.ResourceNotFoundException;
-import com.javanauta.bff_agendador.infraescture.client.exceptions.UnathorizedException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.BusinessException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.ConflictException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.ResourceNotFoundException;
+import com.javanauta.bff_agendador.infrastructure.client.exceptions.UnathorizedException;
 import feign.Response;
 import feign.codec.ErrorDecoder;
 import lombok.SneakyThrows;
@@ -18,7 +18,7 @@ public class FeignError implements ErrorDecoder {
     @SneakyThrows
     @Override
     public Exception decode(String s, Response response) {
-ri
+
 
 
         String mensagemErro = mensagemErro(response);

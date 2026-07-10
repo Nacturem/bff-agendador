@@ -4,7 +4,7 @@ import com.javanauta.bff_agendador.business.TarefasService;
 import com.javanauta.bff_agendador.business.dto.in.TarefasDTORequest;
 import com.javanauta.bff_agendador.business.dto.out.TarefasDTOResponse;
 import com.javanauta.bff_agendador.business.enums.StatusNotificacao;
-import com.javanauta.bff_agendador.infraescture.client.security.SecurityConfig;
+import com.javanauta.bff_agendador.infrastructure.client.security.SecurityConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

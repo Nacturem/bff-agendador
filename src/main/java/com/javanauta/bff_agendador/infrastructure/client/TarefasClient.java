@@ -1,4 +1,4 @@
-package com.javanauta.bff_agendador.infraescture.client;
+package com.javanauta.bff_agendador.infrastructure.client;
 
 
 import com.javanauta.bff_agendador.business.dto.in.TarefasDTORequest;

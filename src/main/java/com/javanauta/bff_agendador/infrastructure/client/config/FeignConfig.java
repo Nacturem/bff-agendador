@@ -1,4 +1,4 @@
-package com.javanauta.bff_agendador.infraescture.client.config;
+package com.javanauta.bff_agendador.infrastructure.client.config;
 
 
 import org.springframework.context.annotation.Bean;
